@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+#fondo {
+    background-color: #292b2b;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.myForm {
+    padding: 10px;
+    border: 1px solid #eee;
+    margin: 10px;
+    width: 90%;
+    border-radius: 3%;
+    margin: auto;
+}
+
+
+#fuenteSubtitulos{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(127, 239, 243);
+    font-size: 24px;
+
+}
+
+}
+
+#fuenteTitulos {
+    font-family: Lora;
+    font-weight: bold;
+    color: gray;
+    font-size: 35px;
+}
+
+
+#borde,
+#borde2 {
+    border-left: 1px #ffffff solid;
+    border-radius: 10px;
+}
+
+#linea {
+    background-color: #ffffff;
+}
+
+.row {
+    display:flex;
+    width: 100%;
+    color: white;
+
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+}
+
+.content {
+    margin: auto;
+}
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-video video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    x-index: 1;
+}
+
+.header-content {
+    z-index: 2;
+    margin-left: 60px;
+    font-size: 50px;
+    font-family: "Anonymous Pro", monospace;
+}
+
+/* Animacion del texto lnicial */
+
+.main-container {
+    width: 106%;
+    height: 125%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    margin-left: 115%;
+}
+
+.typewriter-text {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border-right: 2px solid #fff;
+    font-size: 50px;
+    white-space: nowrap;
+
+    animation: typewriter 3s steps(44) 1s 1 normal both,
+        blinkTextCursor 400ms steps(44) infinite normal;
+}
+
+/* proyectos*/
+#proyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#proyecto {
+    width: 300px;
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    background-color: #2e3030;
+}
+
+#proyecto h5 {
+    text-align: center;
+}
+
+#proyecto p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+#proyecto img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#botonProyecto {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+        height: 66px;
+    }
+
+    to {
+        width: 100%;
+        height: 66px;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #fff;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* courses */
+#items {
+    font-family: Candara;
+    font-size: 18px;
+    color: rgb(158, 160, 158);
+   
+}
+
+#items2 {
+    font-family: Candara;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    width: 400px;
+
+}
+
+/* main titles */
+
+#titles{
+    font-family: Candara;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+#certificates {
+    color: #54e99c;
+}
+
+#curso:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nombre {
+    font-family: Candara;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#contactRow1 {
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+#contactRow {
+    padding: 20px;
+}
+
+.CD {
+    text-align: center;
+}
+
+#contact {
+    background-color: #2e3030;
+}
+
+.footer {
+    background-color: black;
+}
+
+
+
+@media (max-width: 768px) {
+    .nav-item {
+        text-align: center;
+    }
+
+    #nombre {
+        font-size: 35px;
+    }
+
+    #borde,
+    #borde2 {
+        border-left: none;
+    }
+
+    .CD {
+        margin-top: 10%;
+        text-align: left;
+    }
+
+    #habilidades,
+    #herramientas {
+        margin: auto;
+        padding: 2%;
+        width: 100%;
+    
+    }
+
+    #photo {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    #contactRow1 {
+        border-right: 0px solid black;
+        margin: auto;
+    }
+
+    #download {
+        width: 20%;
+    }
+
+    .header-content {
+        z-index: 2;
+        margin-left: 10px;
+        font-size: 22px;
+        font-family: "Anonymous Pro", monospace;
+    }
+
+    /* Animacion del texto lnicial */
+
+    .main-container {
+        width: 106%;
+        height: 125%;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: justify;
+        margin-left: 115%;
+    }
+
+    .typewriter-text {
+        font-size: 22px;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+            height: 30px;
+        }
+
+        to {
+            width: 100%;
+            height: 30px;
+        }
+    }
+}
