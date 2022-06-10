@@ -9,7 +9,12 @@
 .navbar {
     background-color: black;
     color: rgb(255, 255, 255);
+    transition: 0.5s;
     
+}
+
+.navbar:hover{
+    transform: scale(1.02,1.02)
 }
 
 .myForm {
@@ -27,7 +32,12 @@
     font-weight: bold;
     color: rgb(127, 239, 243);
     font-size: 24px;
+    transition: 0.5s;
 
+}
+
+#fuenteSubtitulos:hover{
+    transform: scale(1.01,1.01);
 }
 
 
@@ -186,7 +196,11 @@
     font-family: Candara;
     font-size: 18px;
     color: rgb(158, 160, 158);
-   
+    transition: 0.5s;
+}
+
+#items:hover{
+    transform: scale(1.01,1.01);
 }
 
 #items2 {
@@ -210,6 +224,8 @@
     color: #54e99c;
 }
 
+
+
 #curso:hover {
     font-weight: bold;
     text-decoration: none;
@@ -226,13 +242,26 @@
     bottom: 0;
 }
 
+
+
+
 #contactRow1 {
     padding: 20px;
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(135, 135, 135);
+    transition: 0.5s;
+}
+
+#contactRow1:hover{
+    transform: scale(1.07,1.07);
 }
 
 #contactRow {
     padding: 20px;
+    transition: 0.5s;
+}
+
+#contactRow:hover {
+    transform: scale(1.07, 1.07);
 }
 
 .CD {
@@ -287,10 +316,7 @@
         margin: auto;
     }
 
-    #download {
-        width: 20%;
-    }
-
+ 
     .header-content {
         z-index: 2;
         margin-left: 10px;
