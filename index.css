@@ -50,8 +50,7 @@
 }
 
 
-#borde,
-#borde2 {
+#borde {
     border-left: 1px #ffffff solid;
     border-radius: 10px;
 }
@@ -289,8 +288,7 @@
         font-size: 35px;
     }
 
-    #borde,
-    #borde2 {
+    #borde {
         border-left: none;
     }
 
