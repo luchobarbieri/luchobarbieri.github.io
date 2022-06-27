@@ -122,8 +122,8 @@
 .typewriter-text {
     margin-top: 45%;
     overflow: hidden;
-    position: relative;
     width: 100%;
+    position: relative;
     border-right: 2px solid #fff;
     font-size: 50px;
     white-space: nowrap;
@@ -169,6 +169,7 @@
     text-decoration: none;
     color: white;
 }
+
 
 @keyframes typewriter {
     from {
@@ -339,6 +340,7 @@
 
     .typewriter-text {
         font-size: 22px;
+
     }
 
     @keyframes typewriter {
@@ -353,3 +355,4 @@
         }
     }
 }
+
