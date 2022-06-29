@@ -38,14 +38,13 @@
 .navbar {
     background-color: black;
     color: rgb(255, 255, 255);
-    transition: 0.5s;
-    
+    transition: 0.5s;   
 }
 
 
 
 .navbar:hover{
-    transform: scale(1.02,1.02)
+    transform: scale(1.02,1.02);
 }
 
 .myForm {
